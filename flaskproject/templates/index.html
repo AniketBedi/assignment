@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up Form</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        h2 {
+            color: brown;
+            text-align: center;
+        }
+        h3{
+            color: black;
+            text-align: center;
+        }
+         p {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>Today is a {{ day_of_week }}</h2>
+    <h3>The time is {{ current_time }}</h3>
+
+     <div class="centered">
+
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+            <input type="submit" value="Submit">
+        </form>
+     </div>
+</body>
+</html>
