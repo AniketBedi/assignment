@@ -31,8 +31,14 @@
         <form action="/submit" method="POST">
             <label for="name">Item Name:</label><br>
             <input type="text" id="name" name="name"><br>
-            <label for="name">Item description:</label><br>
+            <label for="description">Item description:</label><br>
             <input type="name" id="name" name="name"><br>
+            <label for="item_id">Item Id:</label><br>
+            <input type="number" id="item_id" name="item_id"><br>
+            <label for="item_uuid">Item UUID:</label><br>
+            <input type="hidden" name="item_uuid" value="550e8400-e29b-41d4-a716-446655440000"><br>
+            <label for="item_hash">Item Hash:</label><br>
+            <input type="hidden" name="item_hash" value="e3b0c44298fc1c149afbf4c8996fb924..."><br>
             <input type="submit" value="Submit">
         </form>
      </div>
